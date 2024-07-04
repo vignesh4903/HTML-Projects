@@ -1,3 +1,3 @@
-Learned Few basic concepts of HTML and implemented the learned cocnepts in projects.
+Learned a few basic concepts of HTML and implemented them in projects.
 
-f you find any bugs, have suggestions for improvements, or want to add more features to the projects, we welcome your contributions! Simply fork this repository, make your changes, and submit a pull request.
+If any bugs are found, suggestions for improvements arise, or more features are desired for the projects, contributions are warmly welcomed! Simply fork this repository, make changes, and submit a pull request.
