@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Catphotoapp</title>
+        <link rel = "icon" href = "img/caticon.jpg" type = "image/x-icon">
+    </head> 
+
+    <body>
+    <!--HEADER BEGINNING-->
+        <header>
+            <h1>CatPhotoApp</h1>
+            <h3>Table Of Content</h3>
+            <nav>
+                <ul>
+                    <li><a href = "#Cat Photos">Cat Photos</a></li>
+                    <li><a href = "#Cat List">Cat Lists</a>
+                        <ul>
+                            <li>Things Cat Love</li>
+                            <li>Things Cat Hate</li>
+                        </ul>
+                    </li>
+                    <li><a href = "#Cat Form">Cat Form</a></li>                    
+                </ul>
+            </nav>
+        </header>
+    <!--HEADER ENDING-->
+     <hr>
+     
+    <!--MAIN BEGINNING-->
+        <main>
+            <section id= "Cat Photos">
+                <h2>Cat Photos</h2>
+                <p>See more <a href = "https://www.catit.com/my-cat/cat-galleries/">Cat Photos</a> in our gallery</p>
+                <figure>
+                    <img src = "img/relaxing-cat.jpg">
+                    <figcaption>Relaxing Cat Picture.</figcaption>
+                </figure>                
+            </section>
+
+            <section id = "Cat List">
+                <h2>Cat List</h2>
+                <h3>Things Cat Love :</h3>
+                <ul>
+                    <li>Cat Nip</li>
+                    <li>Laser Pointers</li>
+                    <li>Lasanga</li>
+                </ul>
+
+                <figure>
+                    <img src = "img/lasagna.jpg">
+                    <figcaption>Cats <em><strong>love</strong></em> lasanga</figcaption>
+                </figure>
+            </section>
+
+            <section id = "Cats Hate">
+                <h2>Top things cat hate :</h2>
+                <ol>
+                    <li>Flea Treament</li>
+                    <li>Thunder</li>
+                    <li>Other Cats</li>
+                </ol>
+
+                <figure>
+                    <img src = "img/cat hate.jpg">
+                    <figcaption>Cat <em><strong>hate</strong></em> other cats</figcaption>
+                </figure>
+            </section>
+           
+
+            <section id = "Cat Form">
+                <h2> Cat Form </h2>
+                <form>
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+                        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                      </fieldset>
+                    
+                    <br>
+
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat ?</legend>
+                        <input id = "loving" type = "checkbox" name = "personality" value = "loving"> <label for = "loving">Loving</label>
+                        <input id = "Lazy" type = "checkbox" name = "personality" value = "Lazy" > <label for = "Lazy">Lazy</label>
+                        <input id = "Energtic" type = "checkbox" name = "personality" value = "Energtic"> <label for = "Energtic">Energtic</label>
+                    </fieldset>
+                </form>
+            </section>
+
+            <br>
+
+            <input type = "text"  name = "Cat photo URL" placeholder = "Cat Photo URL"required>
+            <input type = "submit">
+
+        </main>
+
+    <!--MAIN ENDING-->
+
+    <hr>
+
+    <!--FOOTER BEGINNING-->
+            <footer>
+                <p>
+                    No Copyrigpt <abbr title = "freecodecamp website"><a href = "https://www.freecodecamp.org">freecodecamp.org</a></abbr>
+                </p>
+            </footer>
+    
+    <!--FOOTER ENDING-->
+    </body>
+</html>
